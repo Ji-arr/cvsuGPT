@@ -1,0 +1,69 @@
+Camille Joy P. Poblete  
+BSCS 4A  
+1. Translate each of the following into a statement in English  
+Given:  p : Triangle PQR is isosceles  
+q : Triangle PQR is equilateral  
+r : Triangle PQR is equiangular  
+(a) q ⇔ p  
+Triangle PQR is equilateral if and only if it is isosceles . 
+(b) ¬ p ⇔ ¬ q  
+Triangle PQR is not isosceles if and only if it is not equilateral.  
+(c) q ⇔ r  
+Triangle PQR is equilateral if and only if it is equiangular.  
+(d) p ∧ ¬ q  
+Triangle PQR is isosceles and not equilateral.  
+(e) r ⇒ p.  
+If Triangle PQR is equiangular, then it is also isosceles.  
+ 
+ 
+2. Create a Truth table for the following propositions  
+a. ( p ∨ q ) ∧ r  
+p q r p ∨ q  (p ∨ q) ∧ r 
+T T T T T 
+T T F T F 
+T F T T T 
+T F F T F 
+F T T T T 
+F T F T F 
+F F T F F 
+F F F F F 
+ 
+b.  p ∧ ( ¬ r )  
+p r ¬ r p ∧ (¬ r ) 
+T T F F 
+T F T T 
+F T F F 
+F F T F Camille Joy P. Poblete  
+BSCS 4A  
+ 
+  
+c. ( p ∧ ¬ q ) ∧ ( ¬ r )  
+p q r ¬ q ¬ r (p ∧ ¬ q)  (p ∧ ¬ q) ∧ (¬ r)  
+T T T F F F F 
+T T F F T F F 
+T F T T F T F 
+T F F T T T T 
+F T T F F F F 
+F T F F T F F 
+F F T T F F F 
+F F F T T F F 
+ 
+d. p ⇒  ( q ⇔  ( r ⇒ s ))  
+p q r s r ⇒ s q ⇔ (r ⇒ s) p ⇒ (q ⇔ (r ⇒ s)) 
+T T T T T T T 
+T T T F F F F 
+T T F T T T T 
+T T F F T T T 
+T F T T T F F 
+T F T F F T T 
+T F F T T F F 
+T F F F T F F 
+F T T T T T T 
+F T T F F F T 
+F T F T T T T 
+F T F F T T T 
+F F T T T F T 
+F F T F F T T 
+F F F T T F T 
+F F F F T F T 
+

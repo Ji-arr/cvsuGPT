@@ -1,0 +1,82 @@
+.InputQuery {
+    background-color: #191A19;
+    display: flex;
+    position: absolute ;
+    height: auto;
+    width: 80vw;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+}
+.InputQuery textarea {
+    border-radius: 10px;
+    margin: 5px;
+    width:60vw;
+    padding: 2vh 5vh 2vh 5vh;
+    overflow-y: scroll;
+    resize: none;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;  
+    display: flex;
+    align-items: center;
+}
+
+.InputQuery textarea::-webkit-scrollbar {
+
+    width: 10   px; /* Width of the scrollbar */
+  }
+  
+  .InputQuery textarea::-webkit-scrollbar-thumb {
+
+    background-color: #888; /* Color of the scrollbar thumb */
+    border-radius: 5px; /* Rounded corners of the thumb */
+  }
+  
+  .InputQuery textarea::-webkit-scrollbar-track {
+    border-radius: 120px;
+  }
+.InputQuery button {
+    border-radius: 5px;
+    margin-right: 5px;
+    position: absolute;
+    line-height: 2rem;
+    width: 5vw;
+    right: 15vh;
+}
+
+.result {
+    display: flex;
+    text-align: left;
+    height: auto;
+    border-radius:10px;
+    margin: 1vw 5vw 1vw 5vw;
+    background: red;
+    padding: 2vh;
+}
+.result h3{
+    color: rgb(255, 255, 255);
+    
+}
+.h3Content{
+    margin-top: 10vh;
+    color: rgb(255, 255, 255);
+    background-color: red;
+}
+
+.MessageList {
+    color:white;
+    text-align: left;
+}
+.MessageList .message-container {
+    margin: 5vh 10vh 5vh 10vh;
+    width: auto;
+    padding: 10px;
+
+}
+.IsTyping {
+    margin: 5vh;
+}
+.user-message {
+    text-align: right;
+}

@@ -1,0 +1,48 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+}
+.App .left-side{
+  color:white;
+  background-color: #3E065F;
+  width: 20vw;
+}
+.App .right-side{
+  width: 80vw;
+  height: 100vh;
+  justify-self: flex-end;
+  align-items: flex-end;
+}
+.App .CVSU-logo{
+  text-align: center;
+  height: 10vh;
+  background-color: #8d05c259;
+  position: fixed;
+  width: 80vw;
+}
+.App .right-side .chat-area {  
+  width: 80vw;
+  height: 100vh;
+  background-color: #191A19;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+
+
+.chat-area::-webkit-scrollbar {
+  z-index: 99;
+  width: 10px;
+}
+
+.chat-area::-webkit-scrollbar-thumb {
+  position: absolute;
+  background-color: #888;
+  border-radius: 6px;
+  z-index: 1;
+}
+
+.chat-area::-webkit-scrollbar-track {
+  z-index: 99;
+}

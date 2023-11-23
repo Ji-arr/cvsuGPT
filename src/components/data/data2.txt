@@ -1,0 +1,49 @@
+Formal Languages and Automata
+A formal language is a set of words, symbols, or strings that are used to represent information, communicate ideas, and construct meaningful structures. Automata theory studies the properties and behavior of abstract machines or systems that can perform specific tasks or computations based on input.
+
+by Rowee Marfil
+
+
+Objectives
+By the end of this lesson, students will:
+grasp the concept of formal languages, recognizing them as structured sets of words or symbols used for various purposes
+earn to differentiate between regular, context-free, and context-sensitive languages, understanding their distinct characteristics and examples
+introduce students to automata theory, explaining its relevance and the basics of abstract machines capable of processing symbols
+develop proficiency in designing and analyzing finite automata for recognizing regular languages,
+discover how formal languages and automata are used in fields like natural language processing, compilers, and pattern recognition
+
+
+
+
+Overview of Formal Languages
+The Origins 
+The history of formal languages can be traced back to the mathematical and logical foundations of computer science, such as set theory, recursion theory, and proof theory.
+The Syntax
+The syntax of a formal language defines the rules and patterns that govern the structure and construction of its symbols and symbols combinations, including alphabets, grammars, and syntax trees.
+The Applications
+Formal languages have many practical and theoretical applications, such as natural language processing, compiler design, cryptography, and artificial intelligence.
+
+
+Overview of Automata
+The Components
+Automata consist of several components, such as input tapes, control units, working registers, reading heads, and writing heads.
+The States
+Automata can be in different states, such as initial state, accepting state, rejecting state, dead state, and transition state.
+The Operations
+Automata perform operations such as reading, writing, deleting, moving, and changing symbols and states based on the input and the current state.
+The Variants
+Automata come in different variants and models, such as deterministic, nondeterministic, probabilistic, quantum, and hybrid automata.
+
+The Automata Theory
+1 Automata is a theory in theoretical computer science and is the study of abstract machines and automata, as well as the computational problems that can be solved using them.
+2 Theoretical Computer Science is the subset of general computer science that focuses on its mathematical aspects
+3 The word automata comes from the Greek word αὐτόματα, which means “self-acting” or "self-making".
+4 An automaton (Automata in plural) is an abstract self-propelled computing device which follows a predetermined sequence of operations automatically.
+
+
+Types of Automata
+The Finite Automata
+Finite automata are the simplest and most restricted type of automata, and can only recognize regular languages, such as simple patterns and sequences of symbols.
+The Context Free Grammar
+is a formal notation used in formal language theory and syntax analysis (parsing) in computer science and linguistics. It consists of a set of rules for generating strings (sentences) in a language
+
